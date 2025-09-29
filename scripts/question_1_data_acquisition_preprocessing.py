@@ -5,8 +5,6 @@ Question 1: Comprehensive Data Acquisition and Preprocessing for CO2 Emissions A
 This script downloads and preprocesses CO2 emissions data along with multiple 
 socio-economic and environmental indicators from the World Bank's Climate Change database.
 
-Author: Data Analysis Team
-Date: 2025-09-29
 """
 
 import pandas as pd
