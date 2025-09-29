@@ -4,11 +4,11 @@
 
 **Central Question**: *"What are the common characteristics of countries that successfully reduce emissions, and how can policymakers in other nations apply these insights?"*
 
-This document provides comprehensive analysis of machine learning classifier results, identifying distinguishing characteristics of emission-reducing countries and translating findings into actionable policy recommendations.
+This document provides a comprehensive analysis of machine learning classifier results, identifying distinguishing characteristics of emission-reducing countries and translating findings into actionable policy recommendations.
 
 ## Executive Summary
 
-Our analysis identified **30 countries out of 261** (11.5%) that achieved significant CO2 emissions reductions of ≥2% annually between 2010-2022. Using machine learning classification with 30 socio-economic indicators, we built a Support Vector Machine (SVM) model achieving an **F1-score of 0.429**.
+Our analysis identified **30 countries out of 261** (11.5%) that achieved significant CO2 emissions reductions of ≥2% annually between 2010-2022. Using machine learning classification with 30 socio-economic indicators, we built a Support Vector Machine (SVM) model, achieving an F1-score of 0.429.
 
 **Key Discovery**: Countries that successfully reduce emissions are **not** the wealthiest or most developed, but rather those in **economic transition phases** with specific demographic, technological, and resource characteristics.
 
@@ -40,7 +40,7 @@ Our analysis identified **30 countries out of 261** (11.5%) that achieved signif
 - 80/20 train-test split with stratification
 - 5-fold stratified cross-validation
 - 4 algorithms compared: Random Forest, Gradient Boosting, Logistic Regression, SVM
-- F1-score primary metric due to class imbalance
+- F1-score is the primary metric due to class imbalance
 
 **Best Model Performance (SVM)**:
 - F1-Score: 0.429 (vs ~0.2 random baseline)
@@ -138,8 +138,8 @@ Our analysis identified **30 countries out of 261** (11.5%) that achieved signif
 ## Assumptions and Limitations
 
 **Model Limitations**:
-- 37.5% precision requires portfolio approach across multiple countries
-- Historical patterns may not predict future under changing conditions
+- 37.5% precision requires a portfolio approach across multiple countries
+- Historical patterns may not predict the future under changing conditions
 - Country-level aggregation misses subnational variation
 - Severe class imbalance (11.5% success) makes prediction challenging
 
@@ -160,11 +160,11 @@ Our analysis identified **30 countries out of 261** (11.5%) that achieved signif
 The classifier analysis provides clear guidance for identifying countries most likely to achieve emission reductions:
 
 **Target Profile**: Young, transitional economies with moderate technology adoption and resource constraints
-**Success Factors**: Demographic dynamism, economic flexibility, resource efficiency drive reductions  
+**Success Factors**: Demographic dynamism, economic flexibility, and resource efficiency drive reductions  
 **Policy Leverage**: Strategic interventions significantly increase success probability
 
 **Implementation Priorities**:
-1. **Immediate**: Identify top 20 countries using classifier predictions
+1. **Immediate**: Identify the top 20 countries using classifier predictions
 2. **Short-term**: Design targeted interventions based on country characteristics
 3. **Long-term**: Scale successful approaches with continuous model refinement
 
@@ -176,4 +176,3 @@ This analysis transforms complex machine learning results into practical policy 
 **Model Performance**: SVM F1-Score = 0.429  
 **Countries Analyzed**: 261  
 **Success Rate**: 11.5%  
-**Status**: Ready for policy implementation
