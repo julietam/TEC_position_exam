@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This analysis develops a comprehensive predictive model to forecast CO2 emissions per capita based on socio-economic and environmental indicators, then applies the model to simulate the impact of a 10% GDP increase across 205 countries. The analysis demonstrates the complex, heterogeneous relationship between economic growth and emissions across different development stages.
+This analysis develops a comprehensive predictive model to forecast CO2 emissions per capita based on socio-economic and environmental indicators, then applies the model to simulate the impact of a 10% GDP increase across 205 countries. The analysis reveals the complex and heterogeneous relationship between economic growth and emissions across various development stages.
 
 **Key Accomplishments:**
 - **Model Performance**: Random Forest achieved exceptional predictive accuracy (R² = 0.996)
@@ -437,35 +437,15 @@ The modeling framework enables:
 
 ## Conclusion
 
-This comprehensive analysis reveals that the relationship between economic growth and CO2 emissions is far more nuanced than traditional models suggest. The finding that a 10% GDP increase leads to a nearly 1% **decrease** in CO2 emissions challenges conventional wisdom and provides hope for sustainable development.
+This comprehensive analysis reveals that the relationship between economic growth and CO2 emissions is far more nuanced than traditional models suggest. The finding that a 10% GDP increase leads to a nearly 1% decreas in CO2 emissions challenges conventional wisdom and provides hope for sustainable development.
 
-The key insight is that this relationship varies dramatically by development stage, with middle-income countries showing the highest sensitivity to policy intervention. This creates a clear strategic opportunity for climate policy: focusing resources on countries in the $5,000-50,000 GDP per capita range where economic growth can be most effectively decoupled from emissions.
+The key insight is that this relationship varies significantly by development stage, with middle-income countries exhibiting the highest sensitivity to policy interventions. This creates a clear strategic opportunity for climate policy: focusing resources on countries with a GDP per capita range of $5,000-$50,000, where economic growth can be most effectively decoupled from emissions.
 
 For policymakers, these results suggest that economic growth and environmental protection are not necessarily in conflict. With appropriate policies, technological investments, and institutional frameworks, countries can achieve prosperity while reducing their carbon footprint. The challenge lies in understanding and leveraging the specific mechanisms that drive this decoupling in different development contexts.
 
-The exceptional performance of our Random Forest model (R² = 0.996) provides confidence in these findings while highlighting the complex, non-linear relationships between development indicators and environmental outcomes. This analysis provides a robust foundation for evidence-based climate policy that recognizes the heterogeneous nature of the global economy and the diverse pathways to sustainable development.
+The exceptional performance of our Random Forest model (R² = 0.996) provides confidence in these findings while highlighting the complex, non-linear relationships between development indicators and environmental outcomes. This analysis provides a robust foundation for evidence-based climate policy, recognizing the heterogeneous nature of the global economy and the diverse pathways to sustainable development.
 
 ## References
-
-### Machine Learning and Statistical Methods
-Breiman, L. (2001). Random forests. *Machine Learning*, 45(1), 5-32.
-
-Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. Springer Science & Business Media.
-
-Kohavi, R. (1995). A study of cross-validation and bootstrap for accuracy estimation and model selection. *Proceedings of the 14th International Joint Conference on Artificial Intelligence*, 2, 1137-1143.
-
-Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12, 2825-2830.
-
-### Environmental Economics and Climate Modeling
-Grossmann, D. L., & Krueger, A. B. (1995). Economic growth and the environment. *The Quarterly Journal of Economics*, 110(2), 353-377.
-
-Kuznets, S. (1955). Economic growth and income inequality. *The American Economic Review*, 45(1), 1-28.
-
-Monteleoni, C., Schmidt, G. A., Saroha, S., & Asplund, E. (2011). Tracking climate models. *Statistical Analysis and Data Mining*, 4(4), 372-392.
-
-Panagiotelis, A., Athanasopoulos, G., Gamakumara, P., & Hyndman, R. J. (2021). Forecast reconciliation: A geometric view with new insights on bias correction. *International Journal of Forecasting*, 37(1), 343-359.
-
-Stern, D. I. (2004). The rise and fall of the Environmental Kuznets Curve. *World Development*, 32(8), 1419-1439.
 
 ### Data Sources and International Development
 World Bank. (2023). *World Development Indicators 2023*. World Bank Group.
@@ -479,18 +459,7 @@ International Energy Agency (IEA). (2023). *CO2 Emissions from Fuel Combustion 2
 
 Ritchie, H., Roser, M., & Rosado, P. (2020). CO₂ and greenhouse gas emissions. *Our World in Data*. Retrieved from https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
 
-### Computational and Methodological References
-McKinney, W. (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*, 445, 51-56.
-
-NumPy Developers. (2020). Array programming with NumPy. *Nature*, 585(7825), 357-362.
-
-Seabold, S., & Perktold, J. (2010). Statsmodels: Econometric and statistical modeling with Python. *Proceedings of the 9th Python in Science Conference*, 57, 61.
-
-Van Rossum, G., & Drake, F. L. (2009). *Python 3 Reference Manual*. CreateSpace.
-
 ---
 
 **Document Version**: 1.0  
-**Analysis Date**: September 29, 2025  
-**Model Status**: Validated and production-ready  
 **Data Vintage**: World Bank WDI (1990-2022)
