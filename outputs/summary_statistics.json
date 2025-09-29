@@ -1,0 +1,143 @@
+{
+  "basic_stats": {
+    "CO2_emissions_Mt": {
+      "count": 792.0,
+      "mean": 129.1180303030303,
+      "std": 730.8231688625539,
+      "min": 0.01,
+      "25%": 6.422499999999999,
+      "50%": 11.58,
+      "75%": 32.2875,
+      "max": 10313.46
+    },
+    "Electric_power_consumption_per_capita": {
+      "count": 792.0,
+      "mean": 3140.9118394542,
+      "std": 2983.653840822856,
+      "min": 13.9334962352564,
+      "25%": 1221.1449989504101,
+      "50%": 2271.66939388559,
+      "75%": 4006.7060621566375,
+      "max": 12363.38925177532
+    },
+    "GDP_per_capita_current_USD": {
+      "count": 792.0,
+      "mean": 15570.21101398766,
+      "std": 19513.44564624292,
+      "min": 210.008139902508,
+      "25%": 2189.0563422636674,
+      "50%": 6654.96730828062,
+      "75%": 19988.841855482176,
+      "max": 73388.1983951377
+    },
+    "Population_total": {
+      "count": 792.0,
+      "mean": 60409999.56376263,
+      "std": 91636998.70552649,
+      "min": 10399.0,
+      "25%": 1841364.5,
+      "50%": 10546117.0,
+      "75%": 62301848.5,
+      "max": 243683300.5
+    },
+    "Urban_population_percent": {
+      "count": 792.0,
+      "mean": 59.933455630296365,
+      "std": 22.652017068944268,
+      "min": 13.032,
+      "25%": 42.299,
+      "50%": 58.515,
+      "75%": 79.541,
+      "max": 100.0
+    },
+    "CO2_emissions_per_capita": {
+      "count": 792.0,
+      "mean": 17.50374989704142,
+      "std": 55.913981555403765,
+      "min": 0.02291905454566214,
+      "25%": 0.2548947831966861,
+      "50%": 2.075884162297052,
+      "75%": 6.101843753729847,
+      "max": 335.43827124732053
+    },
+    "Energy_efficiency": {
+      "count": 792.0,
+      "mean": 6.289695705612261,
+      "std": 10.842346762304123,
+      "min": 0.0917955823110821,
+      "25%": 2.1989119209946435,
+      "50%": 3.7890729648448462,
+      "75%": 6.089553783756513,
+      "max": 130.45101992723227
+    }
+  },
+  "missing_values": {
+    "country": 0,
+    "date": 0,
+    "CO2_emissions_Mt": 0,
+    "Electric_power_consumption_per_capita": 0,
+    "GDP_per_capita_current_USD": 0,
+    "Population_total": 0,
+    "Urban_population_percent": 0,
+    "CO2_emissions_per_capita": 0,
+    "Energy_efficiency": 0
+  },
+  "correlations": {
+    "CO2_emissions_per_capita": {
+      "CO2_emissions_per_capita": 1.0,
+      "GDP_per_capita_current_USD": 0.33906791620568166,
+      "Electric_power_consumption_per_capita": 0.014764706139172712,
+      "Urban_population_percent": 0.2984565141259431
+    },
+    "GDP_per_capita_current_USD": {
+      "CO2_emissions_per_capita": 0.33906791620568166,
+      "GDP_per_capita_current_USD": 1.0,
+      "Electric_power_consumption_per_capita": 0.6632807015340698,
+      "Urban_population_percent": 0.5440800919725596
+    },
+    "Electric_power_consumption_per_capita": {
+      "CO2_emissions_per_capita": 0.014764706139172712,
+      "GDP_per_capita_current_USD": 0.6632807015340698,
+      "Electric_power_consumption_per_capita": 1.0,
+      "Urban_population_percent": 0.5460177956845979
+    },
+    "Urban_population_percent": {
+      "CO2_emissions_per_capita": 0.2984565141259431,
+      "GDP_per_capita_current_USD": 0.5440800919725596,
+      "Electric_power_consumption_per_capita": 0.5460177956845979,
+      "Urban_population_percent": 1.0
+    }
+  },
+  "country_count": 264,
+  "year_range": [
+    2018,
+    2020
+  ],
+  "total_observations": 792,
+  "top_co2_emitters": {
+    "country": {
+      "140": "China",
+      "761": "United States",
+      "337": "India",
+      "608": "Russian Federation",
+      "364": "Japan",
+      "268": "Germany",
+      "382": "Korea, Rep.",
+      "343": "Iran, Islamic Rep.",
+      "340": "Indonesia",
+      "116": "Canada"
+    },
+    "CO2_emissions_Mt": {
+      "140": 10313.46,
+      "761": 4981.3,
+      "337": 2434.52,
+      "608": 1607.55,
+      "364": 1106.15,
+      "268": 709.54,
+      "382": 630.87,
+      "343": 629.29,
+      "340": 583.11,
+      "116": 574.4
+    }
+  }
+}
