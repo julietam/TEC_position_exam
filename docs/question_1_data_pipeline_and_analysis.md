@@ -300,45 +300,11 @@ Intergovernmental Panel on Climate Change (IPCC). (2023). *Climate Change 2023: 
 
 Ritchie, H., Roser, M., & Rosado, P. (2020). CO₂ and greenhouse gas emissions. *Our World in Data*. Retrieved from https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
 
-### Data Processing and Statistical Methods
-Barnett, V., & Lewis, T. (1994). *Outliers in Statistical Data* (3rd ed.). John Wiley & Sons.
-
-Little, R. J., & Rubin, D. B. (2019). *Statistical Analysis with Missing Data* (3rd ed.). John Wiley & Sons.
-
-Pearson, K. (1901). On lines and planes of closest fit to systems of points in space. *The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science*, 2(11), 559-572.
-
-Tukey, J. W. (1977). *Exploratory Data Analysis*. Addison-Wesley.
-
-### Environmental Economics and Development
-Grossmann, D. L., & Krueger, A. B. (1995). Economic growth and the environment. *The Quarterly Journal of Economics*, 110(2), 353-377.
-
-Kuznets, S. (1955). Economic growth and income inequality. *The American Economic Review*, 45(1), 1-28.
-
-Stern, D. I. (2004). The rise and fall of the Environmental Kuznets Curve. *World Development*, 32(8), 1419-1439.
-
-United Nations. (2015). *Transforming Our World: The 2030 Agenda for Sustainable Development*. UN General Assembly Resolution A/RES/70/1.
-
-### Computational Tools and Libraries
-Harris, C. R., Millman, K. J., Van Der Walt, S. J., Gommers, R., Virtanen, P., Cournapeau, D., ... & Oliphant, T. E. (2020). Array programming with NumPy. *Nature*, 585(7825), 357-362.
-
-Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering*, 9(3), 90-95.
-
-McKinney, W. (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*, 445, 51-56.
-
-Oliver, S. (2014). *wbdata: A Python library for accessing World Bank data*. Python Package Index. Retrieved from https://pypi.org/project/wbdata/
-
-Waskom, M. L. (2021). seaborn: statistical data visualization. *Journal of Open Source Software*, 6(60), 3021.
-
 ### Data Quality and Validation
-Cui, Y., Jia, M., Lin, T. Y., Song, Y., & Belongie, S. (2019). Class-balanced loss based on effective number of samples. *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 9268-9277.
 
 Karr, A. F., Sanil, A. P., & Banks, D. L. (2006). Data quality: A statistical perspective. *Statistical Methodology*, 3(2), 137-173.
-
-Pipino, L. L., Lee, Y. W., & Wang, R. Y. (2002). Data quality assessment. *Communications of the ACM*, 45(4), 211-218.
-
----
 
 **Document Version**: 1.0  
 **Analysis Date**: September 29, 2025  
 **Data Vintage**: World Bank WDI (1990-2022)  
-**Pipeline Status**: Operational and validated
+
