@@ -7,8 +7,7 @@ in the next decade. Analyze characteristics of successful emission-reducing coun
 provide policy recommendations.
 
 Inputs:
-- outputs/processed_world_bank_data.csv (from Question 1 pipeline)
-
+- outputs/processed_world_bank_data.csv 
 Outputs (to outputs/question_4/):
 - emissions_reduction_targets.csv
 - classification_performance_metrics.csv
