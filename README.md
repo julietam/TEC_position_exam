@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project provides a comprehensive framework for climate policy analysis through five integrated research questions covering data acquisition, predictive modeling, scenario analysis, policy classification, and strategic investment recommendations. The analysis uses World Bank climate and development data (1990-2022) to deliver actionable insights for policymakers, researchers, and investors.
+This project offers a comprehensive framework for climate policy analysis, encompassing five integrated research questions that address data acquisition, predictive modeling, scenario analysis, policy classification, and strategic investment recommendations. The analysis uses World Bank climate and development data (1990-2022) to deliver actionable insights for policymakers, researchers, and investors.
 
 ### Business Questions Addressed
 
@@ -498,13 +498,3 @@ To extend this analysis:
 2. Implement additional preprocessing methods
 3. Create new visualization functions
 4. Add statistical tests or modeling components
-
-## License
-
-This project is provided for educational and research purposes. World Bank data is subject to their terms of use.
-
----
-
-**Authors**: Data Analysis Team  
-**Last Updated**: September 29, 2025  
-**Version**: 1.0
