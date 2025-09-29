@@ -1,143 +1,486 @@
 {
   "basic_stats": {
-    "CO2_emissions_Mt": {
-      "count": 792.0,
-      "mean": 129.1180303030303,
-      "std": 730.8231688625539,
-      "min": 0.01,
-      "25%": 6.422499999999999,
-      "50%": 11.58,
-      "75%": 32.2875,
-      "max": 10313.46
-    },
-    "Electric_power_consumption_per_capita": {
-      "count": 792.0,
-      "mean": 3140.9118394542,
-      "std": 2983.653840822856,
-      "min": 13.9334962352564,
-      "25%": 1221.1449989504101,
-      "50%": 2271.66939388559,
-      "75%": 4006.7060621566375,
-      "max": 12363.38925177532
-    },
-    "GDP_per_capita_current_USD": {
-      "count": 792.0,
-      "mean": 15570.21101398766,
-      "std": 19513.44564624292,
-      "min": 210.008139902508,
-      "25%": 2189.0563422636674,
-      "50%": 6654.96730828062,
-      "75%": 19988.841855482176,
-      "max": 73388.1983951377
-    },
-    "Population_total": {
-      "count": 792.0,
-      "mean": 60409999.56376263,
-      "std": 91636998.70552649,
-      "min": 10399.0,
-      "25%": 1841364.5,
-      "50%": 10546117.0,
-      "75%": 62301848.5,
-      "max": 243683300.5
-    },
-    "Urban_population_percent": {
-      "count": 792.0,
-      "mean": 59.933455630296365,
-      "std": 22.652017068944268,
-      "min": 13.032,
-      "25%": 42.299,
-      "50%": 58.515,
-      "75%": 79.541,
+    "Access_to_basic_water_services_percent": {
+      "count": 8646.0,
+      "mean": 87.03565763172746,
+      "std": 16.908700038122298,
+      "min": 39.540244674386486,
+      "25%": 83.8771029024676,
+      "50%": 94.14631503398145,
+      "75%": 98.6560556451613,
       "max": 100.0
     },
+    "Access_to_electricity_percent": {
+      "count": 8646.0,
+      "mean": 77.71363606135476,
+      "std": 30.628017672590833,
+      "min": 0.533898532390594,
+      "25%": 58.6,
+      "50%": 96.4013617397441,
+      "75%": 100.0,
+      "max": 100.0
+    },
+    "Agriculture_value_added_percent_GDP": {
+      "count": 8646.0,
+      "mean": 12.099721085456903,
+      "std": 11.465366792378157,
+      "min": 0.0114889167333267,
+      "25%": 3.1466376433672023,
+      "50%": 8.467049439964516,
+      "75%": 17.917606174196173,
+      "max": 62.23051176668309
+    },
+    "Annual_freshwater_withdrawals_total": {
+      "count": 8646.0,
+      "mean": 30.266297273464772,
+      "std": 47.997874965426774,
+      "min": 0.0010142857,
+      "25%": 0.9275,
+      "50%": 4.1133315098250005,
+      "75%": 33.225035714275,
+      "max": 130.1176428571
+    },
+    "Arable_land_percent": {
+      "count": 8646.0,
+      "mean": 13.483221769913188,
+      "std": 12.797027404024654,
+      "min": 0.0431406384814495,
+      "25%": 4.0550784583863875,
+      "50%": 9.90430045054427,
+      "75%": 18.1818181818182,
+      "max": 60.56203735211365
+    },
+    "CO2_emissions_Mt": {
+      "count": 8646.0,
+      "mean": 105.60654753643304,
+      "std": 571.2008062595507,
+      "min": 0.0,
+      "25%": 3.05,
+      "50%": 8.56,
+      "75%": 30.575,
+      "max": 10313.46
+    },
+    "CO2_emissions_energy_Mt": {
+      "count": 8646.0,
+      "mean": 101.59592643997225,
+      "std": 543.5508049415545,
+      "min": 0.0,
+      "25%": 2.8925,
+      "50%": 8.03,
+      "75%": 29.6375,
+      "max": 9531.46
+    },
+    "CO2_emissions_transport_Mt": {
+      "count": 8646.0,
+      "mean": 21.59059102475133,
+      "std": 112.8875282091864,
+      "min": 0.0,
+      "25%": 1.14,
+      "50%": 2.62,
+      "75%": 6.715,
+      "max": 1807.72
+    },
+    "Education_expenditure_percent_GDP": {
+      "count": 8646.0,
+      "mean": 4.193812444819887,
+      "std": 1.8600089555363692,
+      "min": 0.0,
+      "25%": 2.9875799417495776,
+      "50%": 3.91375994682312,
+      "75%": 5.03708982467651,
+      "max": 11.185619473457308
+    },
+    "Electric_power_consumption_per_capita": {
+      "count": 8646.0,
+      "mean": 2637.6891457986917,
+      "std": 2729.8430117355906,
+      "min": 0.0,
+      "25%": 828.2300586949892,
+      "50%": 1769.17167459508,
+      "75%": 3246.0494547542075,
+      "max": 10499.507642931863
+    },
+    "Exports_percent_GDP": {
+      "count": 8646.0,
+      "mean": 37.39785350995543,
+      "std": 23.139779427615544,
+      "min": 0.00537675930738319,
+      "25%": 22.330205758715223,
+      "50%": 31.20491983133595,
+      "75%": 46.35869568331893,
+      "max": 118.44416545713004
+    },
+    "Forest_area_percent_land": {
+      "count": 8646.0,
+      "mean": 32.37978573996373,
+      "std": 23.271875269351707,
+      "min": 0.0,
+      "25%": 12.199900009064,
+      "50%": 31.021339166211447,
+      "75%": 47.13354338342222,
+      "max": 96.2263814616756
+    },
+    "Fossil_fuel_energy_consumption_percent": {
+      "count": 8646.0,
+      "mean": 60.77473702150321,
+      "std": 32.134547909658046,
+      "min": 0.0,
+      "25%": 39.025,
+      "50%": 71.32499999999999,
+      "75%": 85.7497990488238,
+      "max": 100.0
+    },
+    "GDP_current_USD": {
+      "count": 8646.0,
+      "mean": 286819535361.98846,
+      "std": 465017566998.28394,
+      "min": 9542900.90136505,
+      "25%": 4201913224.6827574,
+      "50%": 25578458770.9355,
+      "75%": 328488572080.00824,
+      "max": 1301348548645.9849
+    },
+    "GDP_growth_annual": {
+      "count": 8646.0,
+      "mean": 3.241474366428745,
+      "std": 4.750341706361162,
+      "min": -12.515177194562941,
+      "25%": 1.2207233714310275,
+      "50%": 3.5471774583513502,
+      "75%": 5.799356893429017,
+      "max": 19.535257459422986
+    },
+    "GDP_per_capita_current_USD": {
+      "count": 8646.0,
+      "mean": 10992.009783449053,
+      "std": 15100.60433179408,
+      "min": 22.9521327615352,
+      "25%": 1135.7227998540525,
+      "50%": 3733.78357574967,
+      "75%": 14768.5087830697,
+      "max": 55666.86673271664
+    },
+    "Health_expenditure_percent_GDP": {
+      "count": 8646.0,
+      "mean": 5.914001028653681,
+      "std": 2.631161093835269,
+      "min": 1.10719955,
+      "25%": 4.17365646,
+      "50%": 5.255776780731274,
+      "75%": 7.26953447,
+      "max": 16.5571685
+    },
+    "Imports_percent_GDP": {
+      "count": 8646.0,
+      "mean": 42.53734609992701,
+      "std": 23.44317599702693,
+      "min": 0.0156224728764523,
+      "25%": 27.102129423495875,
+      "50%": 35.4975569793395,
+      "75%": 51.86762710219563,
+      "max": 126.16412013829489
+    },
+    "Internet_users_percent": {
+      "count": 8646.0,
+      "mean": 25.977611824358082,
+      "std": 30.10626871325694,
+      "min": 0.0,
+      "25%": 0.301,
+      "50%": 10.3,
+      "75%": 48.9,
+      "max": 100.0
+    },
+    "Life_expectancy_years": {
+      "count": 8646.0,
+      "mean": 68.87785636745528,
+      "std": 9.244692697310036,
+      "min": 26.042039188906358,
+      "25%": 63.30200065088512,
+      "50%": 70.703,
+      "75%": 75.72198780487804,
+      "max": 86.151
+    },
+    "Literacy_rate_adult_total": {
+      "count": 8646.0,
+      "mean": 80.40622741448611,
+      "std": 18.468659363364136,
+      "min": 11.0,
+      "25%": 72.0,
+      "50%": 85.03319549560544,
+      "75%": 94.0,
+      "max": 100.0
+    },
+    "Manufacturing_value_added_percent_GDP": {
+      "count": 8646.0,
+      "mean": 12.911164813034187,
+      "std": 7.070904100326693,
+      "min": 0.0,
+      "25%": 8.05004058664843,
+      "50%": 12.3427812261901,
+      "75%": 16.931144473510326,
+      "max": 43.57445613409601
+    },
+    "Mobile_cellular_subscriptions_per_100": {
+      "count": 8646.0,
+      "mean": 53.8014367050212,
+      "std": 53.03225849134689,
+      "min": 0.0,
+      "25%": 1.32773826525,
+      "50%": 40.9938,
+      "75%": 100.65625,
+      "max": 398.64178520424997
+    },
+    "PM2.5_air_pollution": {
+      "count": 8646.0,
+      "mean": 27.92285997954424,
+      "std": 15.941794796185503,
+      "min": 4.89518090216668,
+      "25%": 17.03287161245075,
+      "50%": 23.80897418434725,
+      "75%": 37.918409704641306,
+      "max": 100.57502398121296
+    },
+    "Population_growth_annual": {
+      "count": 8646.0,
+      "mean": 1.4263903910786866,
+      "std": 1.4532048460172784,
+      "min": -5.204794718901378,
+      "25%": 0.4810257871896403,
+      "50%": 1.337555161681515,
+      "75%": 2.37629928921998,
+      "max": 8.062119795310998
+    },
+    "Population_total": {
+      "count": 8646.0,
+      "mean": 55602574.97738839,
+      "std": 86229157.97120228,
+      "min": 8798.0,
+      "25%": 1451720.25,
+      "50%": 9209693.5,
+      "75%": 58537466.75,
+      "max": 229794706.25
+    },
+    "Renewable_energy_consumption_percent": {
+      "count": 8646.0,
+      "mean": 31.23590734691821,
+      "std": 29.244505466160465,
+      "min": 0.0,
+      "25%": 6.30124299998673,
+      "50%": 21.6080221524575,
+      "75%": 52.93668862790035,
+      "max": 98.3
+    },
+    "Roads_paved_percent": {
+      "count": 8646.0,
+      "mean": 18.686784639696047,
+      "std": 1.2959051728241036,
+      "min": 15.920001983642685,
+      "25%": 18.350000381469748,
+      "50%": 19.0,
+      "75%": 19.159999847412102,
+      "max": 21.589998245239165
+    },
+    "School_enrollment_secondary": {
+      "count": 8646.0,
+      "mean": 72.80211250689956,
+      "std": 30.838815397270697,
+      "min": 4.72082996368408,
+      "25%": 48.1411895751953,
+      "50%": 79.9404099437002,
+      "75%": 95.42984390258792,
+      "max": 194.460021972656
+    },
+    "Services_value_added_percent_GDP": {
+      "count": 8646.0,
+      "mean": 53.975285758725164,
+      "std": 13.155258013635423,
+      "min": 6.4480676740207,
+      "25%": 45.6989324054448,
+      "50%": 53.42708129184265,
+      "75%": 61.84642415436158,
+      "max": 96.2048773616296
+    },
+    "Urban_population_percent": {
+      "count": 8646.0,
+      "mean": 55.71699692206495,
+      "std": 23.357101647892723,
+      "min": 5.416,
+      "25%": 36.057816839828625,
+      "50%": 54.307500000000005,
+      "75%": 74.83675,
+      "max": 100.0
+    },
+    "GDP_per_capita_calculated": {
+      "count": 8646.0,
+      "mean": 19096.80000607121,
+      "std": 100574.10479818514,
+      "min": 22.952132761535225,
+      "25%": 1416.6393800056985,
+      "50%": 4937.538196021154,
+      "75%": 11863.201998726505,
+      "max": 1877053.6552430482
+    },
     "CO2_emissions_per_capita": {
-      "count": 792.0,
-      "mean": 17.50374989704142,
-      "std": 55.913981555403765,
-      "min": 0.02291905454566214,
-      "25%": 0.2548947831966861,
-      "50%": 2.075884162297052,
-      "75%": 6.101843753729847,
-      "max": 335.43827124732053
+      "count": 8646.0,
+      "mean": 14.784342880489787,
+      "std": 49.157608987764846,
+      "min": 0.0,
+      "25%": 0.15946044350907884,
+      "50%": 1.6750433731875167,
+      "75%": 6.438807132185904,
+      "max": 517.6249144421629
+    },
+    "CO2_intensity_per_GDP": {
+      "count": 8646.0,
+      "mean": 1022.2750710950643,
+      "std": 3047.6103147956615,
+      "min": 0.0,
+      "25%": 164.8078777587542,
+      "50%": 396.19061902327144,
+      "75%": 868.0266508632701,
+      "max": 121714.67069301626
     },
     "Energy_efficiency": {
-      "count": 792.0,
-      "mean": 6.289695705612261,
-      "std": 10.842346762304123,
-      "min": 0.0917955823110821,
-      "25%": 2.1989119209946435,
-      "50%": 3.7890729648448462,
-      "75%": 6.089553783756513,
-      "max": 130.45101992723227
+      "count": 8646.0,
+      "mean": Infinity,
+      "std": NaN,
+      "min": 0.020795326346954867,
+      "25%": 1.5444264748112175,
+      "50%": 3.0539849961535275,
+      "75%": 5.286718783892693,
+      "max": Infinity
+    },
+    "Development_index": {
+      "count": 8646.0,
+      "mean": 1.3806520889162252e-16,
+      "std": 0.8449658217696943,
+      "min": -2.7147077095328966,
+      "25%": -0.5803099180528855,
+      "50%": 0.07402792386125895,
+      "75%": 0.523068472412086,
+      "max": 1.9157966200970273
     }
   },
   "missing_values": {
     "country": 0,
-    "date": 0,
-    "CO2_emissions_Mt": 0,
-    "Electric_power_consumption_per_capita": 0,
-    "GDP_per_capita_current_USD": 0,
+    "Renewable_energy_consumption_percent": 0,
+    "Life_expectancy_years": 0,
+    "Literacy_rate_adult_total": 0,
+    "Manufacturing_value_added_percent_GDP": 0,
+    "Mobile_cellular_subscriptions_per_100": 0,
+    "PM2.5_air_pollution": 0,
+    "Population_growth_annual": 0,
     "Population_total": 0,
+    "Roads_paved_percent": 0,
+    "date": 0,
+    "School_enrollment_secondary": 0,
+    "Services_value_added_percent_GDP": 0,
     "Urban_population_percent": 0,
+    "GDP_per_capita_calculated": 0,
     "CO2_emissions_per_capita": 0,
-    "Energy_efficiency": 0
+    "CO2_intensity_per_GDP": 0,
+    "Energy_efficiency": 0,
+    "Internet_users_percent": 0,
+    "Imports_percent_GDP": 0,
+    "Health_expenditure_percent_GDP": 0,
+    "GDP_per_capita_current_USD": 0,
+    "Access_to_basic_water_services_percent": 0,
+    "Access_to_electricity_percent": 0,
+    "Agriculture_value_added_percent_GDP": 0,
+    "Annual_freshwater_withdrawals_total": 0,
+    "Arable_land_percent": 0,
+    "CO2_emissions_Mt": 0,
+    "CO2_emissions_energy_Mt": 0,
+    "CO2_emissions_transport_Mt": 0,
+    "Education_expenditure_percent_GDP": 0,
+    "Electric_power_consumption_per_capita": 0,
+    "Exports_percent_GDP": 0,
+    "Forest_area_percent_land": 0,
+    "Fossil_fuel_energy_consumption_percent": 0,
+    "GDP_current_USD": 0,
+    "GDP_growth_annual": 0,
+    "Development_index": 0
   },
   "correlations": {
     "CO2_emissions_per_capita": {
       "CO2_emissions_per_capita": 1.0,
-      "GDP_per_capita_current_USD": 0.33906791620568166,
-      "Electric_power_consumption_per_capita": 0.014764706139172712,
-      "Urban_population_percent": 0.2984565141259431
+      "GDP_per_capita_current_USD": 0.33526483665827383,
+      "Electric_power_consumption_per_capita": 0.030360997067873305,
+      "Urban_population_percent": 0.28658948117130445,
+      "Life_expectancy_years": 0.2563490832803892,
+      "Education_expenditure_percent_GDP": -0.03690974920289586
     },
     "GDP_per_capita_current_USD": {
-      "CO2_emissions_per_capita": 0.33906791620568166,
+      "CO2_emissions_per_capita": 0.33526483665827383,
       "GDP_per_capita_current_USD": 1.0,
-      "Electric_power_consumption_per_capita": 0.6632807015340698,
-      "Urban_population_percent": 0.5440800919725596
+      "Electric_power_consumption_per_capita": 0.6706023071799018,
+      "Urban_population_percent": 0.5734097156683229,
+      "Life_expectancy_years": 0.652629095190174,
+      "Education_expenditure_percent_GDP": 0.10806699191042819
     },
     "Electric_power_consumption_per_capita": {
-      "CO2_emissions_per_capita": 0.014764706139172712,
-      "GDP_per_capita_current_USD": 0.6632807015340698,
+      "CO2_emissions_per_capita": 0.030360997067873305,
+      "GDP_per_capita_current_USD": 0.6706023071799018,
       "Electric_power_consumption_per_capita": 1.0,
-      "Urban_population_percent": 0.5460177956845979
+      "Urban_population_percent": 0.5873213975235975,
+      "Life_expectancy_years": 0.599244686348271,
+      "Education_expenditure_percent_GDP": 0.25563744840481895
     },
     "Urban_population_percent": {
-      "CO2_emissions_per_capita": 0.2984565141259431,
-      "GDP_per_capita_current_USD": 0.5440800919725596,
-      "Electric_power_consumption_per_capita": 0.5460177956845979,
-      "Urban_population_percent": 1.0
+      "CO2_emissions_per_capita": 0.28658948117130445,
+      "GDP_per_capita_current_USD": 0.5734097156683229,
+      "Electric_power_consumption_per_capita": 0.5873213975235975,
+      "Urban_population_percent": 1.0,
+      "Life_expectancy_years": 0.6550011009554254,
+      "Education_expenditure_percent_GDP": 0.20775832257631102
+    },
+    "Life_expectancy_years": {
+      "CO2_emissions_per_capita": 0.2563490832803892,
+      "GDP_per_capita_current_USD": 0.652629095190174,
+      "Electric_power_consumption_per_capita": 0.599244686348271,
+      "Urban_population_percent": 0.6550011009554254,
+      "Life_expectancy_years": 1.0,
+      "Education_expenditure_percent_GDP": 0.1784452569003721
+    },
+    "Education_expenditure_percent_GDP": {
+      "CO2_emissions_per_capita": -0.03690974920289586,
+      "GDP_per_capita_current_USD": 0.10806699191042819,
+      "Electric_power_consumption_per_capita": 0.25563744840481895,
+      "Urban_population_percent": 0.20775832257631102,
+      "Life_expectancy_years": 0.1784452569003721,
+      "Education_expenditure_percent_GDP": 1.0
     }
   },
-  "country_count": 264,
+  "country_count": 262,
   "year_range": [
-    2018,
-    2020
+    1990,
+    2022
   ],
-  "total_observations": 792,
+  "total_observations": 8646,
   "top_co2_emitters": {
     "country": {
-      "140": "China",
-      "761": "United States",
-      "337": "India",
-      "608": "Russian Federation",
-      "364": "Japan",
-      "268": "Germany",
-      "382": "Korea, Rep.",
-      "343": "Iran, Islamic Rep.",
-      "340": "Indonesia",
-      "116": "Canada"
+      "1573": "China",
+      "8520": "United States",
+      "3776": "India",
+      "6791": "Russian Federation",
+      "4073": "Japan",
+      "3017": "Germany",
+      "4271": "Korea, Rep.",
+      "3842": "Iran, Islamic Rep.",
+      "3809": "Indonesia",
+      "1297": "Canada"
     },
     "CO2_emissions_Mt": {
-      "140": 10313.46,
-      "761": 4981.3,
-      "337": 2434.52,
-      "608": 1607.55,
-      "364": 1106.15,
-      "268": 709.54,
-      "382": 630.87,
-      "343": 629.29,
-      "340": 583.11,
-      "116": 574.4
+      "1573": 10313.46,
+      "8520": 4981.3,
+      "3776": 2434.52,
+      "6791": 1607.55,
+      "4073": 1106.15,
+      "3017": 709.54,
+      "4271": 630.87,
+      "3842": 629.29,
+      "3809": 583.11,
+      "1297": 574.4
     }
   }
 }

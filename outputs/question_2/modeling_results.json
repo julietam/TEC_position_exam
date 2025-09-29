@@ -1,0 +1,272 @@
+{
+  "best_model": "Random Forest",
+  "model_performance": {
+    "Linear Regression": {
+      "cv_mean": 0.5617855351188662,
+      "cv_std": 0.05473415257550497,
+      "train_r2": 0.577785312575787,
+      "test_r2": 0.5349735158472476,
+      "test_rmse": 32.317503687957185,
+      "test_mae": 20.58443511427232
+    },
+    "Ridge Regression": {
+      "cv_mean": 0.5618323389209949,
+      "cv_std": 0.054278017033478156,
+      "train_r2": 0.5777729264199313,
+      "test_r2": 0.5358118206615285,
+      "test_rmse": 32.28836111162885,
+      "test_mae": 20.532680881297555
+    },
+    "Lasso Regression": {
+      "cv_mean": 0.5614648237159696,
+      "cv_std": 0.051375167681566705,
+      "train_r2": 0.5768593109696194,
+      "test_r2": 0.5398792865842756,
+      "test_rmse": 32.146585877183504,
+      "test_mae": 20.211844290347276
+    },
+    "ElasticNet": {
+      "cv_mean": 0.4794811779289204,
+      "cv_std": 0.038812477074293535,
+      "train_r2": 0.4924344186781394,
+      "test_r2": 0.5181488616355171,
+      "test_rmse": 32.89693282155102,
+      "test_mae": 18.18878446902395
+    },
+    "Random Forest": {
+      "cv_mean": 0.993317626885316,
+      "cv_std": 0.0028962004487743317,
+      "train_r2": 0.999305338078859,
+      "test_r2": 0.9960247789554892,
+      "test_rmse": 2.987993199548418,
+      "test_mae": 0.8191712622987921
+    },
+    "Gradient Boosting": {
+      "cv_mean": 0.9801135171910976,
+      "cv_std": 0.008484564747635613,
+      "train_r2": 0.9925745698283602,
+      "test_r2": 0.987879231849401,
+      "test_rmse": 5.2175189523651095,
+      "test_mae": 2.354583440683567
+    },
+    "SVR": {
+      "cv_mean": 0.1543238765984034,
+      "cv_std": 0.010369380492407473,
+      "train_r2": 0.18372169666795723,
+      "test_r2": 0.2631271928072889,
+      "test_rmse": 40.681337998566434,
+      "test_mae": 9.629782803886226
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "Population_total",
+      "importance": 0.5712269483843733
+    },
+    {
+      "feature": "Life_expectancy_years",
+      "importance": 0.16452400001102566
+    },
+    {
+      "feature": "Urban_population_percent",
+      "importance": 0.08727457052434665
+    },
+    {
+      "feature": "Forest_area_percent_land",
+      "importance": 0.037733175836073135
+    },
+    {
+      "feature": "PM2.5_air_pollution",
+      "importance": 0.023120912460034785
+    },
+    {
+      "feature": "Energy_efficiency",
+      "importance": 0.019334364715193578
+    },
+    {
+      "feature": "GDP_current_USD",
+      "importance": 0.014064812336163265
+    },
+    {
+      "feature": "GDP_per_capita_current_USD",
+      "importance": 0.014008616380293564
+    },
+    {
+      "feature": "Access_to_electricity_percent",
+      "importance": 0.008636364122409635
+    },
+    {
+      "feature": "Mobile_cellular_subscriptions_per_100",
+      "importance": 0.007321187678539521
+    },
+    {
+      "feature": "Education_expenditure_percent_GDP",
+      "importance": 0.005554243409748195
+    },
+    {
+      "feature": "Renewable_energy_consumption_percent",
+      "importance": 0.005137777198826396
+    },
+    {
+      "feature": "Electric_power_consumption_per_capita",
+      "importance": 0.0046270164015300526
+    },
+    {
+      "feature": "Arable_land_percent",
+      "importance": 0.004500577206771521
+    },
+    {
+      "feature": "Exports_percent_GDP",
+      "importance": 0.004299697764343814
+    },
+    {
+      "feature": "Services_value_added_percent_GDP",
+      "importance": 0.0033376140701460054
+    },
+    {
+      "feature": "Roads_paved_percent",
+      "importance": 0.003232963906757963
+    },
+    {
+      "feature": "Access_to_basic_water_services_percent",
+      "importance": 0.0030084546075356466
+    },
+    {
+      "feature": "Agriculture_value_added_percent_GDP",
+      "importance": 0.0029314447860521553
+    },
+    {
+      "feature": "Literacy_rate_adult_total",
+      "importance": 0.002661088806559534
+    },
+    {
+      "feature": "Annual_freshwater_withdrawals_total",
+      "importance": 0.0022428845296597914
+    },
+    {
+      "feature": "Health_expenditure_percent_GDP",
+      "importance": 0.0021486990308913624
+    },
+    {
+      "feature": "Manufacturing_value_added_percent_GDP",
+      "importance": 0.0020298438183204122
+    },
+    {
+      "feature": "Imports_percent_GDP",
+      "importance": 0.0016110875600236828
+    },
+    {
+      "feature": "Fossil_fuel_energy_consumption_percent",
+      "importance": 0.0013979176040659184
+    },
+    {
+      "feature": "School_enrollment_secondary",
+      "importance": 0.001046285007981592
+    },
+    {
+      "feature": "Population_growth_annual",
+      "importance": 0.0010364090843111903
+    },
+    {
+      "feature": "GDP_growth_annual",
+      "importance": 0.0009889141565224608
+    },
+    {
+      "feature": "Development_index",
+      "importance": 0.0007805035927301284
+    },
+    {
+      "feature": "Internet_users_percent",
+      "importance": 0.00018162500876899896
+    }
+  ],
+  "training_data_shape": [
+    5412,
+    30
+  ],
+  "test_data_shape": [
+    1353,
+    30
+  ],
+  "features_used": [
+    "Access_to_basic_water_services_percent",
+    "Access_to_electricity_percent",
+    "Agriculture_value_added_percent_GDP",
+    "Annual_freshwater_withdrawals_total",
+    "Arable_land_percent",
+    "Education_expenditure_percent_GDP",
+    "Electric_power_consumption_per_capita",
+    "Exports_percent_GDP",
+    "Forest_area_percent_land",
+    "Fossil_fuel_energy_consumption_percent",
+    "GDP_current_USD",
+    "GDP_growth_annual",
+    "GDP_per_capita_current_USD",
+    "Health_expenditure_percent_GDP",
+    "Imports_percent_GDP",
+    "Internet_users_percent",
+    "Life_expectancy_years",
+    "Literacy_rate_adult_total",
+    "Manufacturing_value_added_percent_GDP",
+    "Mobile_cellular_subscriptions_per_100",
+    "PM2.5_air_pollution",
+    "Population_growth_annual",
+    "Population_total",
+    "Renewable_energy_consumption_percent",
+    "Roads_paved_percent",
+    "School_enrollment_secondary",
+    "Services_value_added_percent_GDP",
+    "Urban_population_percent",
+    "Energy_efficiency",
+    "Development_index"
+  ],
+  "scenario_analysis": {
+    "gdp_increase_percent": 10,
+    "summary_statistics": {
+      "mean_co2_change": -0.9784544517333507,
+      "median_co2_change": 0.0,
+      "std_co2_change": 7.815307663970966,
+      "min_co2_change": -56.1885890851468,
+      "max_co2_change": 42.235531656813926,
+      "countries_analyzed": 205
+    },
+    "income_level_analysis": {
+      "count": {
+        "Low": 81,
+        "Lower-Middle": 51,
+        "Upper-Middle": 49,
+        "High": 24
+      },
+      "mean": {
+        "Low": -0.7,
+        "Lower-Middle": -0.67,
+        "Upper-Middle": -2.23,
+        "High": -0.02
+      },
+      "median": {
+        "Low": 0.0,
+        "Lower-Middle": 0.0,
+        "Upper-Middle": 0.0,
+        "High": 0.0
+      },
+      "std": {
+        "Low": 1.7,
+        "Lower-Middle": 11.36,
+        "Upper-Middle": 10.92,
+        "High": 0.06
+      },
+      "min": {
+        "Low": -6.98,
+        "Lower-Middle": -41.76,
+        "Upper-Middle": -56.19,
+        "High": -0.23
+      },
+      "max": {
+        "Low": 1.12,
+        "Lower-Middle": 42.24,
+        "Upper-Middle": 10.64,
+        "High": 0.01
+      }
+    }
+  }
+}

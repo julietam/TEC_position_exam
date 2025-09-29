@@ -1,0 +1,20 @@
+{
+  "global_transport_emissions_Mt": 7152.38,
+  "global_total_emissions_Mt": 34064.0,
+  "global_ev_reduction_Mt": 2332.145,
+  "global_ev_reduction_percent_of_transport": 32.61,
+  "global_ev_reduction_percent_of_total": 6.85,
+  "assumptions": {
+    "ICE_g_per_km": 180.0,
+    "EV_kWh_per_km": 0.18,
+    "grid_ef_formula": "50 + 7.5 * fossil_percent (gCO2/kWh), -20 if renewables > 60% (min 30)",
+    "ev_share_mapping": "EV_share = min(1, 0.5 / ownership_fraction)",
+    "ownership_from_gdp": "piecewise heuristic based on GDP per capita",
+    "km_per_vehicle_by_income": {
+      "low": 3000,
+      "lower_middle": 5000,
+      "upper_middle": 8000,
+      "high": 12000
+    }
+  }
+}

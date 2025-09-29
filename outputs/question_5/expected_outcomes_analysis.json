@@ -1,0 +1,149 @@
+{
+  "analysis_summary": {
+    "total_countries_analyzed": 214,
+    "high_priority_countries": 4,
+    "medium_priority_countries": 19,
+    "average_reduction_probability": 0.27171728971962616,
+    "max_expected_reduction_percent": 22.826869821771865,
+    "investment_scenarios_analyzed": [
+      "Conservative",
+      "Moderate",
+      "Aggressive"
+    ]
+  },
+  "scenario_outcomes": {
+    "Aggressive": {
+      "expected_reduction": -0.197,
+      "expected_reduction_percent": -1.403,
+      "reduction_probability": 0.272,
+      "investment_efficiency": 0.007
+    },
+    "Conservative": {
+      "expected_reduction": -0.088,
+      "expected_reduction_percent": -0.298,
+      "reduction_probability": 0.272,
+      "investment_efficiency": 0.021
+    },
+    "Moderate": {
+      "expected_reduction": -0.159,
+      "expected_reduction_percent": -1.112,
+      "reduction_probability": 0.272,
+      "investment_efficiency": 0.011
+    }
+  },
+  "top_10_priority_countries": [
+    {
+      "country": "Cote d'Ivoire",
+      "priority_score_normalized": 1.0,
+      "expected_reduction_percent": 13.760836310907788,
+      "reduction_probability": 0.29000000000000004,
+      "investment_efficiency": 0.0035643718364803383
+    },
+    {
+      "country": "Turkmenistan",
+      "priority_score_normalized": 0.965619422126133,
+      "expected_reduction_percent": -11.361095905652531,
+      "reduction_probability": 0.315,
+      "investment_efficiency": 0.06266159404639467
+    },
+    {
+      "country": "Algeria",
+      "priority_score_normalized": 0.9540127561223078,
+      "expected_reduction_percent": -11.934806762271839,
+      "reduction_probability": 0.35250000000000004,
+      "investment_efficiency": 0.029671533328105668
+    },
+    {
+      "country": "Ethiopia",
+      "priority_score_normalized": 0.7569229703028199,
+      "expected_reduction_percent": 10.373969947998518,
+      "reduction_probability": 0.29,
+      "investment_efficiency": 0.001482244606775785
+    },
+    {
+      "country": "Yemen, Rep.",
+      "priority_score_normalized": 0.6847180498596094,
+      "expected_reduction_percent": -8.762659620288439,
+      "reduction_probability": 0.315,
+      "investment_efficiency": 0.004278956431271853
+    },
+    {
+      "country": "Tunisia",
+      "priority_score_normalized": 0.6540737025232496,
+      "expected_reduction_percent": -8.150003662055525,
+      "reduction_probability": 0.29000000000000004,
+      "investment_efficiency": 0.012981526453109338
+    },
+    {
+      "country": "Iran, Islamic Rep.",
+      "priority_score_normalized": 0.628166087762935,
+      "expected_reduction_percent": -7.397379593483756,
+      "reduction_probability": 0.265,
+      "investment_efficiency": 0.030489199713410787
+    },
+    {
+      "country": "Mongolia",
+      "priority_score_normalized": 0.6208358633725959,
+      "expected_reduction_percent": -7.356160135036014,
+      "reduction_probability": 0.315,
+      "investment_efficiency": 0.02570663272407547
+    },
+    {
+      "country": "Viet Nam",
+      "priority_score_normalized": 0.5745441389567014,
+      "expected_reduction_percent": 7.2879687919648255,
+      "reduction_probability": 0.21500000000000002,
+      "investment_efficiency": 0.005020521199084164
+    },
+    {
+      "country": "Turks and Caicos Islands",
+      "priority_score_normalized": 0.5636148207962705,
+      "expected_reduction_percent": -1.5773299920578445,
+      "reduction_probability": 0.30250000000000005,
+      "investment_efficiency": 0.23772934119183417
+    }
+  ],
+  "technology_framework": {
+    "Solar PV": {
+      "weight": 0.35,
+      "cost_trend": -0.15,
+      "scalability": "high",
+      "deployment_speed": "fast"
+    },
+    "Wind (Onshore)": {
+      "weight": 0.25,
+      "cost_trend": -0.08,
+      "scalability": "high",
+      "deployment_speed": "medium"
+    },
+    "Wind (Offshore)": {
+      "weight": 0.15,
+      "cost_trend": -0.12,
+      "scalability": "medium",
+      "deployment_speed": "slow"
+    },
+    "Hydro": {
+      "weight": 0.15,
+      "cost_trend": 0.02,
+      "scalability": "medium",
+      "deployment_speed": "slow"
+    },
+    "Other Renewables": {
+      "weight": 0.1,
+      "cost_trend": -0.1,
+      "scalability": "low",
+      "deployment_speed": "medium"
+    }
+  },
+  "key_insights": {
+    "highest_impact_scenario": "Conservative",
+    "most_efficient_countries": [
+      "Cote d'Ivoire",
+      "Turkmenistan",
+      "Algeria",
+      "Ethiopia",
+      "Yemen, Rep."
+    ],
+    "average_payoff_time": "3-7 years based on investment efficiency scores"
+  }
+}

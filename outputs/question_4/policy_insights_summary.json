@@ -1,0 +1,89 @@
+{
+  "successful_countries": 30,
+  "total_countries": 261,
+  "success_rate": 11.494252873563218,
+  "top_features": [
+    {
+      "feature": "Population_growth_annual",
+      "importance": 0.08183196264697357,
+      "category": "environmental"
+    },
+    {
+      "feature": "Mobile_cellular_subscriptions_per_100",
+      "importance": 0.058692608177221446,
+      "category": "social"
+    },
+    {
+      "feature": "Agriculture_value_added_percent_GDP",
+      "importance": 0.05348413203107959,
+      "category": "economic"
+    },
+    {
+      "feature": "Internet_users_percent",
+      "importance": 0.053250715145026835,
+      "category": "social"
+    },
+    {
+      "feature": "Annual_freshwater_withdrawals_total",
+      "importance": 0.05217140971446297,
+      "category": "environmental"
+    },
+    {
+      "feature": "Access_to_basic_water_services_percent",
+      "importance": 0.0509792555674112,
+      "category": "infrastructure"
+    },
+    {
+      "feature": "Education_expenditure_percent_GDP",
+      "importance": 0.049231370660507645,
+      "category": "social"
+    },
+    {
+      "feature": "GDP_current_USD",
+      "importance": 0.037602735233829815,
+      "category": "economic"
+    },
+    {
+      "feature": "Life_expectancy_years",
+      "importance": 0.037391250769065396,
+      "category": "social"
+    },
+    {
+      "feature": "GDP_growth_annual",
+      "importance": 0.03628191332873549,
+      "category": "economic"
+    }
+  ],
+  "successful_examples": [
+    {
+      "country": "Cyprus",
+      "emissions_trend_percent_per_year": -2.015829793539381,
+      "start_emissions": 6.933755151549543,
+      "end_emissions": 5.430496405957773
+    },
+    {
+      "country": "Ukraine",
+      "emissions_trend_percent_per_year": -2.064403397001946,
+      "start_emissions": 5.800326816751755,
+      "end_emissions": 4.515848296146101
+    },
+    {
+      "country": "Djibouti",
+      "emissions_trend_percent_per_year": -2.1450094853690316,
+      "start_emissions": 0.5589889180446997,
+      "end_emissions": 0.430922279209495
+    },
+    {
+      "country": "Barbados",
+      "emissions_trend_percent_per_year": -2.192036383150553,
+      "start_emissions": 5.7767136675592115,
+      "end_emissions": 4.427631252700855
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "emissions_trend_percent_per_year": -2.287850177641604,
+      "start_emissions": 17.166092186923716,
+      "end_emissions": 13.0033203861459
+    }
+  ]
+}
