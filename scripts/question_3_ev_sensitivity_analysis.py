@@ -6,8 +6,7 @@ Estimate the impact on global CO2 emissions if 50% of the world's population ado
 Simulate at the country level and identify where reductions would be largest.
 
 Inputs:
-- outputs/processed_world_bank_data.csv (from Question 1 pipeline)
-
+- outputs/processed_world_bank_data.csv 
 Outputs (to outputs/question_3/):
 - ev_impact_by_country.csv
 - ev_global_summary.json
