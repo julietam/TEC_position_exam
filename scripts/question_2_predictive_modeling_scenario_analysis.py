@@ -7,8 +7,6 @@ socio-economic and environmental indicators, and performs scenario analysis to a
 "If a country increases its GDP by 10%, what is the expected percentage change in CO2 emissions, 
 assuming all other factors remain constant?"
 
-Author: Data Analysis Team
-Date: 2025-09-29
 """
 
 import pandas as pd
